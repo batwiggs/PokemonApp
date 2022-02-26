@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9378416D27C84C9700E065DE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378416C27C84C9700E065DE /* DetailViewController.swift */; };
+		9378416F27C850BB00E065DE /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378416E27C850BB00E065DE /* Creature.swift */; };
+		9378417127C851D100E065DE /* CreatureDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378417027C851D100E065DE /* CreatureDetail.swift */; };
 		93C6B03427BF10E600C94AA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C6B03327BF10E600C94AA8 /* AppDelegate.swift */; };
 		93C6B03627BF10E600C94AA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C6B03527BF10E600C94AA8 /* SceneDelegate.swift */; };
-		93C6B03827BF10E600C94AA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C6B03727BF10E600C94AA8 /* ViewController.swift */; };
+		93C6B03827BF10E600C94AA8 /* listViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C6B03727BF10E600C94AA8 /* listViewController.swift */; };
 		93C6B03B27BF10E600C94AA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C6B03927BF10E600C94AA8 /* Main.storyboard */; };
 		93C6B03D27BF10E800C94AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C6B03C27BF10E800C94AA8 /* Assets.xcassets */; };
 		93C6B04027BF10E800C94AA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C6B03E27BF10E800C94AA8 /* LaunchScreen.storyboard */; };
 		93C6B04B27BF10E900C94AA8 /* PokemonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C6B04A27BF10E900C94AA8 /* PokemonAppTests.swift */; };
 		93C6B05527BF10E900C94AA8 /* PokemonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C6B05427BF10E900C94AA8 /* PokemonAppUITests.swift */; };
 		93C6B05727BF10E900C94AA8 /* PokemonAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C6B05627BF10E900C94AA8 /* PokemonAppUITestsLaunchTests.swift */; };
+		93C6B06427BF1BC300C94AA8 /* Creatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C6B06327BF1BC300C94AA8 /* Creatures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9378416C27C84C9700E065DE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9378416E27C850BB00E065DE /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
+		9378417027C851D100E065DE /* CreatureDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureDetail.swift; sourceTree = "<group>"; };
 		93C6B03027BF10E600C94AA8 /* PokemonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C6B03327BF10E600C94AA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93C6B03527BF10E600C94AA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		93C6B03727BF10E600C94AA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93C6B03727BF10E600C94AA8 /* listViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listViewController.swift; sourceTree = "<group>"; };
 		93C6B03A27BF10E600C94AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93C6B03C27BF10E800C94AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93C6B03F27BF10E800C94AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		93C6B05027BF10E900C94AA8 /* PokemonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C6B05427BF10E900C94AA8 /* PokemonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAppUITests.swift; sourceTree = "<group>"; };
 		93C6B05627BF10E900C94AA8 /* PokemonAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93C6B06327BF1BC300C94AA8 /* Creatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creatures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +109,11 @@
 			children = (
 				93C6B03327BF10E600C94AA8 /* AppDelegate.swift */,
 				93C6B03527BF10E600C94AA8 /* SceneDelegate.swift */,
-				93C6B03727BF10E600C94AA8 /* ViewController.swift */,
+				9378416E27C850BB00E065DE /* Creature.swift */,
+				9378417027C851D100E065DE /* CreatureDetail.swift */,
+				93C6B06327BF1BC300C94AA8 /* Creatures.swift */,
+				93C6B03727BF10E600C94AA8 /* listViewController.swift */,
+				9378416C27C84C9700E065DE /* DetailViewController.swift */,
 				93C6B03927BF10E600C94AA8 /* Main.storyboard */,
 				93C6B03C27BF10E800C94AA8 /* Assets.xcassets */,
 				93C6B03E27BF10E800C94AA8 /* LaunchScreen.storyboard */,
@@ -258,7 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93C6B03827BF10E600C94AA8 /* ViewController.swift in Sources */,
+				93C6B06427BF1BC300C94AA8 /* Creatures.swift in Sources */,
+				93C6B03827BF10E600C94AA8 /* listViewController.swift in Sources */,
+				9378416F27C850BB00E065DE /* Creature.swift in Sources */,
+				9378416D27C84C9700E065DE /* DetailViewController.swift in Sources */,
+				9378417127C851D100E065DE /* CreatureDetail.swift in Sources */,
 				93C6B03427BF10E600C94AA8 /* AppDelegate.swift in Sources */,
 				93C6B03627BF10E600C94AA8 /* SceneDelegate.swift in Sources */,
 			);
